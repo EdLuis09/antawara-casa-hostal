@@ -1,0 +1,131 @@
+/* CSS Custom Properties (Variables) */
+:root {
+    /* Colors - Antawara Brand Identity */
+    --primary-color: #ef892d;
+    --primary-rgb: 239, 137, 45;
+    --primary-light: #f2a55a;
+    --primary-dark: #d6711a;
+    --secondary-color: #8a5b3a;
+    --secondary-light: #a3734f;
+    --secondary-dark: #6d4428;
+    
+    --accent-color: #e7b485;
+    --success-color: #27ae60;
+    --warning-color: #f1c40f;
+    --info-color: #3498db;
+    
+    --text-primary: var(--antawara-brown);
+    --text-secondary: #a3734f;
+    --text-light: var(--antawara-beige);
+    --text-white: var(--antawara-bone);
+    
+    --bg-primary: var(--antawara-beige);
+    --bg-white: var(--antawara-bone);
+    --bg-secondary: #f7f4f0;
+    --bg-dark: var(--antawara-brown);
+    --bg-overlay: rgba(138, 91, 58, 0.8);
+    
+    --border-color: var(--antawara-beige);
+    --border-light: #f0e3d5;
+    --shadow-light: rgba(138, 91, 58, 0.1);
+    --shadow-medium: rgba(138, 91, 58, 0.15);
+    --shadow-dark: rgba(138, 91, 58, 0.25);
+    
+    /* Antawara Brand Colors */
+    --antawara-bone: #fefefd;
+    --antawara-orange: #ef892d;
+    --antawara-beige: #e7b485;
+    --antawara-brown: #8a5b3a;
+    --antawara-dark-brown: #1b0a04;
+    
+    /* Typography */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --font-size-xs: 0.75rem;    /* 12px */
+    --font-size-sm: 0.875rem;   /* 14px */
+    --font-size-base: 1rem;     /* 16px */
+    --font-size-lg: 1.125rem;   /* 18px */
+    --font-size-xl: 1.25rem;    /* 20px */
+    --font-size-2xl: 1.5rem;    /* 24px */
+    --font-size-3xl: 1.875rem;  /* 30px */
+    --font-size-4xl: 2.25rem;   /* 36px */
+    --font-size-5xl: 3rem;      /* 48px */
+    
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;   /* 4px */
+    --spacing-sm: 0.5rem;    /* 8px */
+    --spacing-md: 0.75rem;   /* 12px */
+    --spacing-lg: 1rem;      /* 16px */
+    --spacing-xl: 1.5rem;    /* 24px */
+    --spacing-2xl: 2rem;     /* 32px */
+    --spacing-3xl: 2.5rem;   /* 40px */
+    --spacing-4xl: 3rem;     /* 48px */
+    --spacing-5xl: 4rem;     /* 64px */
+    --spacing-6xl: 5rem;     /* 80px */
+    --spacing-7xl: 6rem;     /* 96px */
+    
+    /* Layout */
+    --container-max-width: 1200px;
+    --container-padding: var(--spacing-lg);
+    
+    --header-height: 80px;
+    --header-height-mobile: 70px;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;    /* 4px */
+    --radius-md: 0.5rem;     /* 8px */
+    --radius-lg: 0.75rem;    /* 12px */
+    --radius-xl: 1rem;       /* 16px */
+    --radius-2xl: 1.5rem;    /* 24px */
+    --radius-full: 9999px;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+    
+    /* Z-index */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+    
+    /* Breakpoints (for JavaScript) */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1400px;
+    
+    /* Animations */
+    --animation-duration: 0.3s;
+    --animation-timing: ease-in-out;
+}
+
+/* Dark mode variables (optional for future use) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-primary: #ffffff;
+        --text-secondary: #a0aec0;
+        --text-light: #718096;
+        
+        --bg-primary: #1a202c;
+        --bg-secondary: #2d3748;
+        --bg-dark: #171923;
+        
+        --border-color: #4a5568;
+        --border-light: #2d3748;
+    }
+}
