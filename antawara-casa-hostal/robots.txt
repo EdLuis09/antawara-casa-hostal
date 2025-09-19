@@ -1,0 +1,20 @@
+# robots.txt para Antawara Casa Hostal
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.antawara.com/sitemap.xml
+
+# Disallow admin areas (si las tienes en el futuro)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow important pages
+Allow: /index.html
+Allow: /src/css/
+Allow: /src/js/
+Allow: /src/assets/
+
+# Crawl delay (opcional)
+Crawl-delay: 1
