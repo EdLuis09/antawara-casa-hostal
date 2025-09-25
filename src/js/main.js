@@ -330,13 +330,6 @@ class AntawaraApp {
         // Resize event with debouncing
         window.addEventListener('resize', window.utils.performance.debounce(this.handleResize, 250));
         
-        // Touch start event to show header immediately on mobile
-        document.addEventListener('touchstart', () => {
-            if (window.innerWidth <= 991) {
-                this.showHeader();
-            }
-        }, { passive: true });
-
         // Touch events for slider controls
         this.initTouchSliderControls();
         
