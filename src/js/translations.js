@@ -39,7 +39,7 @@ const translations = {
             historyTitle: "Nuestra Historia",
             historyText: "Antawara Casa Hostal nació con la visión de crear un espacio acogedor donde los viajeros puedan sentirse como en casa. Con años de experiencia en hospitalidad, nos dedicamos a brindar un servicio personalizado y de calidad.",
             missionTitle: "Nuestra Misión",
-            missionText: "Proporcionar alojamiento cómodo, seguro y accesible, creando experiencias memorables para nuestros huéspedes, promueviendo el turismo local y sostenible.",
+            missionText: "Proporcionar alojamiento cómodo, seguro y accesible, creando experiencias memorables para nuestros huéspedes, promoviendo el turismo local y sostenible.",
             feature1Title: "Ambiente Familiar",
             feature1Text: "Trato personalizado y ambiente acogedor",
             feature2Title: "Ubicación Privilegiada", 
