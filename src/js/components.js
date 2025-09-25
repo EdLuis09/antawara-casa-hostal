@@ -207,9 +207,6 @@ const components = {
                             ${window.utils.format.currency(tour.price)}
                             <span class="price-unit">${window.translations?.[currentLang]?.common?.[tour.priceUnit] || tour.priceUnit}</span>
                         </div>
-                        <button class="btn btn-primary" onclick="window.components.actions.contactForTour('${tourName}')">
-                            ${window.translations?.[currentLang]?.common?.bookTourBtn || 'Reservar Tour'}
-                        </button>
                     </div>
                 </div>
             </div>
