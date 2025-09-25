@@ -39,7 +39,7 @@ const translations = {
             historyTitle: "Nuestra Historia",
             historyText: "Antawara Casa Hostal nació con la visión de crear un espacio acogedor donde los viajeros puedan sentirse como en casa. Con años de experiencia en hospitalidad, nos dedicamos a brindar un servicio personalizado y de calidad.",
             missionTitle: "Nuestra Misión",
-            missionText: "Proporcionar alojamiento cómodo, seguro y accesible, creando experiencias memorables para nuestros huéspedes mientras promueven el turismo local y sostenible.",
+            missionText: "Proporcionar alojamiento cómodo, seguro y accesible, creando experiencias memorables para nuestros huéspedes, promueviendo el turismo local y sostenible.",
             feature1Title: "Ambiente Familiar",
             feature1Text: "Trato personalizado y ambiente acogedor",
             feature2Title: "Ubicación Privilegiada", 
@@ -65,7 +65,7 @@ const translations = {
             },
             shared: {
                 name: "Habitación Compartida",
-                description: "Dormitorio compartido con literas cómodas, perfecto para mochileros y viajeros sociables.",
+                description: "Encantadora habitación doble inspirada en la vibrante flor de cayena. Ofrece un ambiente cálido y acogedor con vistas espectaculares al jardín tropical y la refrescante piscina, ideal para una escapada romántica.",
                 price: "desde $25/noche"
             },
             family: {
@@ -81,7 +81,7 @@ const translations = {
             },
             2: {
                 name: "Habitación Doble - Cayena", 
-                description: "Acogedora habitación compartida con literas, aire acondicionado e instalaciones compartidas. Ideal para viajeros con presupuesto y mochileros."
+                description: "Encantadora habitación doble inspirada en la vibrante flor de cayena. Ofrece un ambiente cálido y acogedor con vistas espectaculares al jardín tropical y la refrescante piscina, ideal para una escapada romántica."
             },
             3: {
                 name: "Habitación Familiar - Heliconia",
@@ -598,7 +598,7 @@ const translations = {
             },
             shared: {
                 name: "Cayena Room", 
-                description: "Cozy shared room with bunk beds, AC, and shared facilities. Ideal for budget travelers and backpackers.",
+                description: "Charming double room inspired by the vibrant hibiscus flower. It offers a warm and inviting atmosphere with stunning views of the tropical garden and refreshing pool - perfect for a romantic getaway.",
                 price: "Starting from COP $80,000/night"
             },
             family: {
@@ -614,7 +614,7 @@ const translations = {
             },
             2: {
                 name: "Double Room - Cayena", 
-                description: "Cozy shared room with bunk beds, air conditioning and shared facilities. Ideal for budget travelers and backpackers."
+                description: "Charming double room inspired by the vibrant hibiscus flower. It offers a warm and inviting atmosphere with stunning views of the tropical garden and refreshing pool - perfect for a romantic getaway."
             },
             3: {
                 name: "Family Room - Heliconia",
