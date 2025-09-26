@@ -300,7 +300,7 @@ const appData = {
         {
             id: 1,
             name: "Cabo San Juan del Guía",
-            description: "Cabo San Juan del Guía es una de las playas más emblemáticas del Parque Nacional Natural Tayrona, en Santa Marta, Colombia. Se caracteriza por su exuberante selva tropical que desciende hasta llegar al mar Caribe, playas de arena dorada gruesa, aguas de distintos tonos de azul y verde, y formación rocosa prominente sobre la playa que suele aparecer en fotografías icónicas del Tayrona. El lugar combina zonas de descanso, camping, senderos que atraviesan el bosque, miradores y vistas panorámicas desde rocas que dan al mar.",
+            description: "Descubre Cabo San Juan del Guía, la joya más icónica del Parque Nacional Natural Tayrona en Santa Marta. Aquí la selva tropical se funde con el mar Caribe en un espectáculo único: arenas doradas, aguas que cambian del azul profundo al verde esmeralda y la famosa formación rocosa que roba miradas en cada fotografía. Disfruta de senderos entre la selva, miradores con vistas que quitan el aliento y espacios ideales para descansar, acampar y conectar con la naturaleza. Vive la experiencia que todos sueñan y que solo tú puedes hacer realidad: ¡tu próxima aventura te espera en Cabo San Juan!",
             images: [
                 "src/assets/images/places/cabo-san-juan/cabo-01.jpg",
                 "src/assets/images/places/cabo-san-juan/cabo-02.jpg",
@@ -317,7 +317,7 @@ const appData = {
         {
             id: 2,
             name: "Palomino",
-            description: "Palomino es un destino costero tropical ubicado en La Guajira, en la región Caribe de Colombia. Se encuentra donde el río Palomino desemboca en el Mar Caribe, entre mar y selva, con un paisaje marcado por playas de arena suave, palmeras, bosque tropical cercano (y la Sierra Nevada como telón de fondo). Es un pueblo que mezcla naturaleza, tranquilidad, ambiente mochilero/bohemio, alojamientos rústicos/ecolodges, hamacas frente al mar, sonidos de río y mar, comida sencilla local y servicios turísticos básicos.",
+            description: "Palomino, en la mágica Guajira colombiana, es un paraíso donde el río se entrega al mar Caribe bajo la mirada imponente de la Sierra Nevada. Sus playas de arena suave, rodeadas de palmeras y bosque tropical, son el escenario perfecto para desconectarte del ruido y entregarte a la tranquilidad. Imagina hamacas frente al mar, el murmullo del río y las olas, sabores locales sencillos pero auténticos, y un ambiente bohemio que atrae a viajeros de todo el mundo. Palomino no es solo un destino, es un estilo de vida que invita a relajarte, explorar y vivir la esencia del Caribe en su máxima expresión.",
             images: [
                 "src/assets/images/places/palomino/palomino-01.jpg",
                 "src/assets/images/places/palomino/palomino-02.jpg",
@@ -334,7 +334,7 @@ const appData = {
         {
             id: 3,
             name: "Río Don Diego",
-            description: "El Río Don Diego es un destino ecoturístico ubicado en el departamento del Magdalena, al noreste de Santa Marta, en la región de la Sierra Nevada. Nace en los picos nevados de la Sierra, atraviesa selvas exuberantes, flora y fauna tropical, y desemboca en el Mar Caribe. Los visitantes pueden disfrutar de ríos de aguas cristalinas, playas vírgenes en la desembocadura, bosques ribereños y paisajes donde montañas, ríos, selvas y mar confluyen en un entorno natural muy bien conservado.",
+            description: "El Río Don Diego, en el corazón del Magdalena, es una experiencia ecoturística que te conecta con la magia de la Sierra Nevada desde sus picos nevados hasta el Mar Caribe. Navega o desciende por sus aguas cristalinas rodeado de selvas exuberantes, escucha el canto de aves exóticas y descubre playas vírgenes donde río y mar se encuentran en perfecta armonía. Aquí, montañas, selva y océano se unen para regalarte un escenario natural único, ideal para aventureros, amantes de la naturaleza y viajeros que buscan un destino auténtico y lleno de vida. ¡Atrévete a vivirlo!",
             images: [
                 "src/assets/images/places/rio-don-diego/don-diego-01.jpg",
                 "src/assets/images/places/rio-don-diego/don-diego-02.jpg",
@@ -351,7 +351,7 @@ const appData = {
         {
             id: 4,
             name: "Playa Costeño",
-            description: "Playa Costeño (también llamada Playa Guachaca / Mendihuaca, dependiendo de la zona) es una playa ubicada aproximadamente a un kilómetro 39 vía Riohacha desde Santa Marta. Está rodeado de naturaleza: selva baja tropical, palmeras, ríos cercanos y la Sierra Nevada de Santa Marta como telón de fondo. El ambiente es relajado, bohemio, ideal para quienes buscan desconectarse del bullicio de las ciudades. Tiene un enfoque de surf, descanso, naturaleza, música, comunidad mochilera, hospedajes tipo hostal/ecolodge, hamacas, fiestas sencillas al atardecer.",
+            description: "Playa Costeño, también conocida como Guachaca o Mendihuaca, es un rincón del Caribe a solo 39 km de Santa Marta donde la selva tropical, los ríos y la imponente Sierra Nevada se funden con el mar. Su atmósfera bohemia y relajada lo convierte en el refugio perfecto para desconectarte del bullicio urbano: surf, hamacas frente al mar, música al atardecer y la energía vibrante de una comunidad mochilera que celebra la vida simple. Aquí la naturaleza es protagonista y cada ola, cada puesta de sol y cada noche estrellada invitan a vivir una experiencia auténtica, libre y llena de espíritu aventurero.",
             images: [
                 "src/assets/images/places/playa-costeno/costeno-01.jpg",
                 "src/assets/images/places/playa-costeno/costeno-02.jpg",
