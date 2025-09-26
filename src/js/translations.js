@@ -221,28 +221,28 @@ const translations = {
             // Lugares específicos por ID
             1: {
                 name: "Cabo San Juan del Guía",
-                description: "Cabo San Juan del Guía es una de las playas más emblemáticas del Parque Nacional Natural Tayrona, en Santa Marta, Colombia. Se caracteriza por su exuberante selva tropical que desciende hasta llegar al mar Caribe, playas de arena dorada gruesa, aguas de distintos tonos de azul y verde, y formación rocosa prominente sobre la playa que suele aparecer en fotografías icónicas del Tayrona. El lugar combina zonas de descanso, camping, senderos que atraviesan el bosque, miradores y vistas panorámicas desde rocas que dan al mar.",
+                description: "Descubre Cabo San Juan del Guía, la joya más icónica del Parque Nacional Natural Tayrona en Santa Marta. Aquí la selva tropical se funde con el mar Caribe en un espectáculo único: arenas doradas, aguas que cambian del azul profundo al verde esmeralda y la famosa formación rocosa que roba miradas en cada fotografía. Disfruta de senderos entre la selva, miradores con vistas que quitan el aliento y espacios ideales para descansar, acampar y conectar con la naturaleza. Vive la experiencia que todos sueñan y que solo tú puedes hacer realidad: ¡tu próxima aventura te espera en Cabo San Juan!",
                 distance: "2 horas y media desde el hostal",
                 type: "Playa - Parque Nacional",
                 activities: ["Senderismo ecológico", "Natación", "Naturaleza", "Snorkel", "Fotografía", "Camping", "Relajación"]
             },
             2: {
                 name: "Palomino",
-                description: "Palomino es un destino costero tropical ubicado en La Guajira, en la región Caribe de Colombia. Se encuentra donde el río Palomino desemboca en el Mar Caribe, entre mar y selva, con un paisaje marcado por playas de arena suave, palmeras, bosque tropical cercano (y la Sierra Nevada como telón de fondo). Es un pueblo que mezcla naturaleza, tranquilidad, ambiente mochilero/bohemio, alojamientos rústicos/ecolodges, hamacas frente al mar, sonidos de río y mar, comida sencilla local y servicios turísticos básicos.",
+                description: "Palomino, en la mágica Guajira colombiana, es un paraíso donde el río se entrega al mar Caribe bajo la mirada imponente de la Sierra Nevada. Sus playas de arena suave, rodeadas de palmeras y bosque tropical, son el escenario perfecto para desconectarte del ruido y entregarte a la tranquilidad. Imagina hamacas frente al mar, el murmullo del río y las olas, sabores locales sencillos pero auténticos, y un ambiente bohemio que atrae a viajeros de todo el mundo. Palomino no es solo un destino, es un estilo de vida que invita a relajarte, explorar y vivir la esencia del Caribe en su máxima expresión.",
                 distance: "1 hora desde el hostal",
                 type: "Playa - Pueblo Bohemio",
                 activities: ["Tubing", "Surf", "Senderismo", "Tours", "Observación de aves", "Relajación"]
             },
             3: {
                 name: "Río Don Diego",
-                description: "El Río Don Diego es un destino ecoturístico ubicado en el departamento del Magdalena, al noreste de Santa Marta, en la región de la Sierra Nevada. Nace en los picos nevados de la Sierra, atraviesa selvas exuberantes, flora y fauna tropical, y desemboca en el Mar Caribe. Los visitantes pueden disfrutar de ríos de aguas cristalinas, playas vírgenes en la desembocadura, bosques ribereños y paisajes donde montañas, ríos, selvas y mar confluyen en un entorno natural muy bien conservado.",
+                description: "El Río Don Diego, en el corazón del Magdalena, es una experiencia ecoturística que te conecta con la magia de la Sierra Nevada desde sus picos nevados hasta el Mar Caribe. Navega o desciende por sus aguas cristalinas rodeado de selvas exuberantes, escucha el canto de aves exóticas y descubre playas vírgenes donde río y mar se encuentran en perfecta armonía. Aquí, montañas, selva y océano se unen para regalarte un escenario natural único, ideal para aventureros, amantes de la naturaleza y viajeros que buscan un destino auténtico y lleno de vida. ¡Atrévete a vivirlo!",
                 distance: "45 minutos desde el hostal",
                 type: "Río - Ecoturismo",
                 activities: ["Tubing", "Surf de remo", "Kayac", "Pesca artesanal", "Caminatas", "Observación de fauna y flora", "Relajación", "Experiencias culturales"]
             },
             4: {
                 name: "Playa Costeño",
-                description: "Playa Costeño (también llamada Playa Guachaca / Mendihuaca, dependiendo de la zona) es una playa ubicada aproximadamente a un kilómetro 39 vía Riohacha desde Santa Marta. Está rodeado de naturaleza: selva baja tropical, palmeras, ríos cercanos y la Sierra Nevada de Santa Marta como telón de fondo. El ambiente es relajado, bohemio, ideal para quienes buscan desconectarse del bullicio de las ciudades. Tiene un enfoque de surf, descanso, naturaleza, música, comunidad mochilera, hospedajes tipo hostal/ecolodge, hamacas, fiestas sencillas al atardecer.",
+                description: "Playa Costeño, también conocida como Guachaca o Mendihuaca, es un rincón del Caribe a solo 39 km de Santa Marta donde la selva tropical, los ríos y la imponente Sierra Nevada se funden con el mar. Su atmósfera bohemia y relajada lo convierte en el refugio perfecto para desconectarte del bullicio urbano: surf, hamacas frente al mar, música al atardecer y la energía vibrante de una comunidad mochilera que celebra la vida simple. Aquí la naturaleza es protagonista y cada ola, cada puesta de sol y cada noche estrellada invitan a vivir una experiencia auténtica, libre y llena de espíritu aventurero.",
                 distance: "15 minutos desde el hostal",
                 type: "Playa - Surf",
                 activities: ["Navegar", "Yoga en la playa", "Relajación", "Caminar", "Nadar", "Festejos sencillos"]
@@ -754,28 +754,28 @@ const translations = {
             // Specific places by ID
             1: {
                 name: "Cabo San Juan del Guía",
-                description: "Cabo San Juan del Guía is one of the most emblematic beaches of Tayrona National Natural Park in Santa Marta, Colombia. It's characterized by its lush tropical jungle that descends to the Caribbean Sea, golden coarse sand beaches, waters in different shades of blue and green, and a prominent rocky formation over the beach that usually appears in iconic Tayrona photographs. The place combines rest areas, camping, trails through the forest, viewpoints and panoramic views from rocks facing the sea.",
+                description: "Discover Cabo San Juan del Guía, the most iconic gem of Tayrona National Natural Park in Santa Marta. Here, the tropical jungle meets the Caribbean Sea in a one-of-a-kind spectacle: golden sands, waters shifting from deep blue to emerald green, and the famous rock formation that steals the spotlight in every photo. Enjoy jungle trails, breathtaking viewpoints, and perfect spots to relax, camp, and connect with nature. Live the experience everyone dreams of—but only you can make real: your next adventure awaits at Cabo San Juan!",
                 distance: "2 and a half hours from the hostel",
                 type: "Beach - National Park",
                 activities: ["Ecological hiking", "Swimming", "Nature", "Snorkeling", "Photography", "Camping", "Relaxation"]
             },
             2: {
                 name: "Palomino",
-                description: "Palomino is a tropical coastal destination located in La Guajira, in the Caribbean region of Colombia. It's located where the Palomino River flows into the Caribbean Sea, between sea and jungle, with a landscape marked by soft sand beaches, palm trees, nearby tropical forest (and the Sierra Nevada as a backdrop). It's a town that mixes nature, tranquility, backpacker/bohemian atmosphere, rustic accommodations/ecolodges, hammocks facing the sea, sounds of river and sea, simple local food and basic tourist services.",
+                description: "Palomino, in Colombia’s magical Guajira region, is a paradise where the river meets the Caribbean Sea under the majestic gaze of the Sierra Nevada. Its soft-sand beaches, framed by palm trees and tropical forest, create the perfect setting to disconnect from the noise and surrender to tranquility. Picture hammocks by the sea, the soothing sound of the river and waves, simple yet authentic local flavors, and a bohemian vibe that draws travelers from around the world. Palomino is more than a destination - it’s a lifestyle that invites you to relax, explore, and experience the very essence of the Caribbean at its finest.",
                 distance: "1 hour from the hostel",
                 type: "Beach - Bohemian Town",
                 activities: ["Tubing", "Surfing", "Hiking", "Tours", "Bird watching", "Relaxation"]
             },
             3: {
                 name: "Don Diego River",
-                description: "The Don Diego River is an ecotourism destination located in the department of Magdalena, northeast of Santa Marta, in the Sierra Nevada region. It originates in the snowy peaks of the Sierra, crosses lush jungles, tropical flora and fauna, and flows into the Caribbean Sea. Visitors can enjoy crystal clear river waters, virgin beaches at the mouth, riverside forests and landscapes where mountains, rivers, jungles and sea converge in a very well-preserved natural environment.",
+                description: "The Don Diego River, in the heart of Magdalena, offers an ecotourism experience that connects you with the magic of the Sierra Nevada—from its snow-capped peaks to the Caribbean Sea. Paddle or float down its crystal-clear waters surrounded by lush jungle, listen to the songs of exotic birds, and discover untouched beaches where river and sea meet in perfect harmony. Here, mountains, jungle, and ocean come together to create a truly unique natural setting - ideal for adventurers, nature lovers, and travelers in search of an authentic, vibrant destination. Dare to live it!",
                 distance: "45 minutes from the hostel",
                 type: "River - Ecotourism",
                 activities: ["Tubing", "Stand-up paddling", "Kayaking", "Artisanal fishing", "Hiking", "Wildlife and flora observation", "Relaxation", "Cultural experiences"]
             },
             4: {
                 name: "Playa Costeño",
-                description: "Playa Costeño (also called Playa Guachaca / Mendihuaca, depending on the area) is a beach located approximately at kilometer 39 via Riohacha from Santa Marta. It's surrounded by nature: low tropical jungle, palm trees, nearby rivers and the Sierra Nevada de Santa Marta as a backdrop. The atmosphere is relaxed, bohemian, ideal for those seeking to disconnect from the hustle and bustle of cities. It has a focus on surfing, rest, nature, music, backpacker community, hostel/ecolodge type accommodations, hammocks, simple sunset parties.",
+                description: "Costeño Beach, also known as Guachaca or Mendihuaca, is a Caribbean hideaway just 39 km from Santa Marta where the tropical jungle, rivers, and the majestic Sierra Nevada merge with the sea. Its bohemian, laid-back vibe makes it the perfect retreat to disconnect from city noise: surfing, hammocks by the sea, sunset music, and the vibrant energy of a backpacker community that celebrates the simple life. Here, nature takes center stage, and every wave, every sunset, and every starlit night invite you to embrace an authentic experience - free-spirited and full of adventure.",
                 distance: "15 minutes from the hostel",
                 type: "Beach - Surf",
                 activities: ["Surfing", "Beach yoga", "Relaxation", "Walking", "Swimming", "Simple celebrations"]
