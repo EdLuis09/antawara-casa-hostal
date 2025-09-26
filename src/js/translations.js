@@ -77,7 +77,7 @@ const translations = {
             // Habitaciones específicas
             1: {
                 name: "Habitación Doble - Girasol",
-                description: "Habitación privada con aire acondicionado, baño privado y vista al jardín. Perfecta para parejas que buscan comodidad y tranquilidad."
+                description: "Acogedora habitación doble con vista panorámica al jardín y la piscina. Perfecta para parejas que buscan confort y tranquilidad, con todas las comodidades modernas incluyendo aire acondicionado y un ambiente tropical relajante."
             },
             2: {
                 name: "Habitación Doble - Cayena", 
@@ -85,15 +85,15 @@ const translations = {
             },
             3: {
                 name: "Habitación Familiar - Heliconia",
-                description: "Habitación espaciosa con cama doble, baño privado y acceso a terraza. Diseñada para el confort y la relajación."
+                description: "Espaciosa habitación familiar con balcón privado y hamaca para disfrutar del ambiente tropical. Combina una cama doble y una King size, perfecta para familias que desean comodidad, espacio y hermosas vistas al jardín y la piscina."
             },
             4: {
                 name: "Habitación Triple - Orquídea",
-                description: "Habitación elegante con decoración tropical, aire acondicionado y vista panorámica. Un refugio de paz en medio de la naturaleza."
+                description: "Elegante habitación triple con balcón, hamaca y vistas privilegiadas al jardín, piscina y montañas. Cuenta con una cama Queen y una cama de un cuerpo desplegable, ofreciendo flexibilidad y confort para grupos pequeños o familias."
             },
             5: {
                 name: "Habitación Triple - Ave del Paraíso",
-                description: "Habitación amplia familiar que acomoda hasta 4 huéspedes con baño privado y acceso a terraza. Perfecta para familias que exploran Tayrona."
+                description: "La habitación triple más exclusiva con terraza privada, balcón y hamaca. Disfruta de vistas panorámicas al jardín, piscina y montañas desde tu propio espacio exterior. Perfecta para quienes buscan privacidad y conexión con la naturaleza."
             }
         },
         
@@ -506,7 +506,7 @@ const translations = {
             "1 cama doble": "1 double bed", 
             "1 cama King": "1 King bed",
             "1 cama Queen": "1 Queen bed",
-            "1 cama doble desplegable": "1 sofa bed",
+            "1 cama de un cuerpo desplegable": "1 single sofa bed",
             "Tocador": "Dresser",
             "Aire acondicionado": "Air conditioning",
             "Ventilador": "Fan",
@@ -610,7 +610,7 @@ const translations = {
             // Specific rooms
             1: {
                 name: "Double Room - Girasol",
-                description: "Private room with air conditioning, private bathroom and garden view. Perfect for couples seeking comfort and tranquility."
+                description: "Cozy double room with panoramic views of the garden and pool. Perfect for couples seeking comfort and tranquility, featuring all modern amenities including air conditioning and a relaxing tropical atmosphere."
             },
             2: {
                 name: "Double Room - Cayena", 
@@ -618,15 +618,15 @@ const translations = {
             },
             3: {
                 name: "Family Room - Heliconia",
-                description: "Spacious room with double bed, private bathroom and terrace access. Designed for comfort and relaxation."
+                description: "Spacious family room with a private balcony and hammock to enjoy the tropical atmosphere. Features both a double bed and a king-size bed, making it perfect for families seeking comfort, space, and beautiful views of the garden and pool."
             },
             4: {
                 name: "Triple Room - Orquídea",
-                description: "Elegant room with tropical decoration, air conditioning and panoramic view. A peaceful refuge in the middle of nature."
+                description: "Elegant triple room with a balcony, hammock, and privileged views of the garden, pool, and mountains. Equipped with a queen bed and a fold-out single bed, it offers both flexibility and comfort for small groups or families."
             },
             5: {
                 name: "Triple Room - Ave del Paraíso",
-                description: "Large family room accommodating up to 4 guests with private bathroom and terrace access. Perfect for families exploring Tayrona."
+                description: "The most exclusive triple room featuring a private terrace, balcony, and hammock. Enjoy panoramic views of the garden, pool, and mountains from your own outdoor space. Perfect for those seeking privacy and a close connection with nature."
             }
         },
         
