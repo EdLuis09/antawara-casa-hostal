@@ -117,7 +117,7 @@ const appData = {
             ],
             price: 180000,
             priceUnit: "COP por grupo",
-            features: ["1 cama Queen", "1 cama doble desplegable", "Tocador", "Aire acondicionado", "Ventilador", "TV", "WiFi", "Servicio de limpieza", "Baño privado", "Balcón", "Hamaca", "Vista al jardín", "Vista a la piscina", "Vista a la montaña"],
+            features: ["1 cama Queen", "1 cama de un cuerpo desplegable", "Tocador", "Aire acondicionado", "Ventilador", "TV", "WiFi", "Servicio de limpieza", "Baño privado", "Balcón", "Hamaca", "Vista al jardín", "Vista a la piscina", "Vista a la montaña"],
             capacity: 3
         },
         {
@@ -147,7 +147,7 @@ const appData = {
             ],
             price: 180000,
             priceUnit: "COP por grupo",
-            features: ["1 cama Queen", "1 cama doble desplegable", "Tocador", "Aire acondicionado", "Ventilador", "TV", "WiFi", "Servicio de limpieza", "Baño privado", "Terraza", "Balcón", "Hamaca", "Vista al jardín", "Vista a la piscina", "Vista a la montaña"],
+            features: ["1 cama Queen", "1 cama de un cuerpo desplegable", "Tocador", "Aire acondicionado", "Ventilador", "TV", "WiFi", "Servicio de limpieza", "Baño privado", "Terraza", "Balcón", "Hamaca", "Vista al jardín", "Vista a la piscina", "Vista a la montaña"],
             capacity: 3
         }
     ],
