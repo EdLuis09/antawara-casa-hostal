@@ -433,75 +433,58 @@ class AntawaraApp {
     }
     
     openMobileMenu() {
-        const navbarToggle = window.utils.dom.get('navbar-toggle');
-        const navbarMenu = window.utils.dom.get('navbar-menu');
-        
-        // Preservar la posiciÃ³n del scroll antes de hacer position: fixed
-        this.savedScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        document.body.style.top = `-${this.savedScrollTop}px`;
-        
-        window.utils.dom.addClass(navbarToggle, 'active');
-        window.utils.dom.addClass(navbarMenu, 'active');
-        window.utils.dom.addClass(document.body, 'menu-open');
-        
-        // Animate menu items
-        const navLinks = window.utils.dom.queryAll('.nav-link');
-        navLinks.forEach((link, index) => {
-            setTimeout(() => {
-                window.utils.dom.addClass(link, 'slide-in-left');
-            }, index * 50);
-        });
-        
-        // Track analytics
-        window.utils.analytics.trackEvent('mobile_menu_open');
-    }
+    const navbarToggle = window.utils.dom.get('navbar-toggle');
+    const navbarMenu = window.utils.dom.get('navbar-menu');
+    
+    // NO modificar la posición de scroll - solo abrir el menú
+    window.utils.dom.addClass(navbarToggle, 'active');
+    window.utils.dom.addClass(navbarMenu, 'active');
+    window.utils.dom.addClass(document.body, 'menu-open');
+    
+    // Animate menu items
+    const navLinks = window.utils.dom.queryAll('.nav-link');
+    navLinks.forEach((link, index) => {
+        setTimeout(() => {
+            window.utils.dom.addClass(link, 'slide-in-left');
+        }, index * 50);
+    });
+    
+    // Track analytics
+    window.utils.analytics.trackEvent('mobile_menu_open');
+}
     
     closeMobileMenu() {
-        const navbarToggle = window.utils.dom.get('navbar-toggle');
-        const navbarMenu = window.utils.dom.get('navbar-menu');
-        
-        window.utils.dom.removeClass(navbarToggle, 'active');
-        window.utils.dom.removeClass(navbarMenu, 'active');
-        window.utils.dom.removeClass(document.body, 'menu-open');
-        
-        // Restaurar la posiciÃ³n del scroll
-        document.body.style.top = '';
-        if (this.savedScrollTop !== undefined) {
-            window.scrollTo(0, this.savedScrollTop);
-            this.savedScrollTop = undefined;
-        }
-        
-        // Remove animation classes
-        const navLinks = window.utils.dom.queryAll('.nav-link');
-        navLinks.forEach(link => {
-            window.utils.dom.removeClass(link, 'slide-in-left');
-        });
-    }
+    const navbarToggle = window.utils.dom.get('navbar-toggle');
+    const navbarMenu = window.utils.dom.get('navbar-menu');
+    
+    // NO restaurar posición - solo cerrar el menú
+    window.utils.dom.removeClass(navbarToggle, 'active');
+    window.utils.dom.removeClass(navbarMenu, 'active');
+    window.utils.dom.removeClass(document.body, 'menu-open');
+    
+    // Remove animation classes
+    const navLinks = window.utils.dom.queryAll('.nav-link');
+    navLinks.forEach(link => {
+        window.utils.dom.removeClass(link, 'slide-in-left');
+    });
+}
     
     setupScrollLock() {
-        // Prevent body scroll when mobile menu is open
-        const style = document.createElement('style');
-        style.textContent = `
+    // Prevent body scroll when mobile menu is open
+    const style = document.createElement('style');
+    style.textContent = `
+        body.menu-open {
+            overflow: hidden;
+        }
+        
+        @media (min-width: 992px) {
             body.menu-open {
-                overflow: hidden;
-                position: fixed;
-                width: 100%;
-                height: 100%;
-                left: 0;
-                right: 0;
+                overflow: auto;
             }
-            
-            @media (min-width: 992px) {
-                body.menu-open {
-                    overflow: auto;
-                    position: static;
-                    width: auto;
-                    height: auto;
-                }
-            }
-        `;
-        document.head.appendChild(style);
-    }
+        }
+    `;
+    document.head.appendChild(style);
+}
     
     initGallery() {
         const galleryModal = window.utils.dom.get('gallery-modal');
