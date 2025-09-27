@@ -493,7 +493,7 @@ const translations = {
             "COP por familia": "COP por familia", 
             "COP por grupo": "COP por grupo",
             "COP por persona": "COP por persona",
-            "COP por persona (desde)": "COP por persona (desde)",
+            "COP por persona": "COP por persona",
             // Difficulty levels
             "Fácil": "Fácil",
             "Moderado": "Moderado", 
@@ -1026,7 +1026,7 @@ const translations = {
             "COP por familia": "COP per family", 
             "COP por grupo": "COP per group",
             "COP por persona": "COP per person",
-            "COP por persona (desde)": "COP per person (from)",
+            "COP por persona": "COP per person",
             // Difficulty levels
             "Fácil": "Easy",
             "Moderado": "Moderate", 
