@@ -288,7 +288,7 @@ const appData = {
             ],
             duration: "2-3 horas",
             price: 80000,
-            priceUnit: "COP por persona (desde)",
+            priceUnit: "COP por persona",
             includes: ["Guía local experto", "Refrigerio", "Souvenir especial", "Seguro de asistencia médica", "Degustación exclusiva de chocolate artesanal"],
             difficulty: "Fácil",
             groupSize: "2-15 personas"
