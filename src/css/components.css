@@ -1335,11 +1335,42 @@ section:nth-child(even) {
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.gallery-close:hover {
-    background: linear-gradient(135deg, #f39c12, var(--antawara-orange));
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(239, 137, 45, 0.6);
-    color: var(--antawara-bone);
+/* Corregir líneas naranjas en el botón "Mostrar más" en móvil/tablet/landscape */
+
+/* Elimina el pseudo-elemento que genera las líneas verticales */
+.load-more-btn::before,
+.load-more-container::before {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+/* Opcional: Si el botón tenía border-left, elimínalo */
+.load-more-btn,
+.load-more-container {
+    border-left: none !important;
+    box-shadow: none !important;
+}
+
+/* Mantén el estilo visual del botón */
+.load-more-btn {
+    background: var(--primary-color);
+    color: var(--text-white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md) var(--spacing-2xl);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+/* Hover y active para feedback visual */
+.load-more-btn:hover,
+.load-more-btn:active,
+.load-more-btn:focus {
+    background: var(--primary-dark);
+    color: var(--text-white);
+    outline: none;
 }
 
 /* Add tooltip for gallery close button */
